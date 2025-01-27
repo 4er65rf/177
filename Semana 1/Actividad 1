@@ -1,1 +1,25 @@
-print ("La Act.1")
+# Laboratorio Semana 1 - Programación Básica
+
+# Ejercicio 1
+ print("¿Cuál es la función de la memoria secundaria en una computadora?")
+ Respuesta = int(inpunt("Ingrese la repuesta: ")) 
+ print("Respuesta: c) Almacenar información durante mucho tiempo, incluso después de ciclos de apagado y encendido.")
+
+# Ejercicio 2
+ print("¿Qué es un programa?")
+ Respuesta = int(inpunt("Ingrese la repuesta: ")) 
+ print("Respuesta: Un conjunto ordendes, setencias o declaciones que siguen un orden, una secuencia especifica con el fin de hacer una tarea en específico. Como por ejemplo contar las palabras de un texto proporcionado")
+
+#Ejercicio 3
+ print("¿Cuál es la diferencia entre un compilador y un intérprete?")
+ Respuesta = int(inpunt("Ingrese la repuesta: "))
+ print("Respusta: Compilador: Traduce todo el código fuente a código máquina antes de ejecutarlo, generando un archivo ejecutable. Intérprete: Traduce y ejecuta el código línea por línea, sin generar un archivo ejecutable.")
+
+#Ejercicio 4
+ print("¿Cuál de los siguientes contiene código máquina?")
+ print("a)El intérprete de Python")
+ print("b)El teclado")
+ print("c)El código fuente de Python")
+ print("d)Un documento de un procesador de texto")
+ Respuesta = int(inpunt("Ingrese la repuesta: "))
+ print("c)El código fuente de Python")
