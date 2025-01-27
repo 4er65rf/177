@@ -77,8 +77,10 @@
  print("3: Memoria secundaria: Se asemeja a la memoria a largo plazo de una persona, donde se guarda información para uso futuro")
  print("4: Dispositivos de entrada: Son como los sentidos humanos (vista, oído, tacto), que recopilan información del entorno")
  print("5: Dispositivos de salida: Equivalen a las acciones humanas (hablar, escribir, mover objetos), que permiten interactuar con el entorno")
- 
- #Ejercicio 9
+
+#Ejercicio 9
  print("¿Cómo puedes corregir un “Error de sintaxis”?") 
  Respuesta = int(inpunt("Ingrese la repuesta: "))
- 
+ print("Respuesta: La unica forma de solocionar un error de sintaxis, es llendo a la linea correspondiente donde se encuentra el error y corregirlo para que funcione el programa")
+
+
