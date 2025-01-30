@@ -82,5 +82,3 @@
  print("¿Cómo puedes corregir un “Error de sintaxis”?") 
  Respuesta = int(inpunt("Ingrese la repuesta: "))
  print("Respuesta: La unica forma de solocionar un error de sintaxis, es llendo a la linea correspondiente donde se encuentra el error y corregirlo para que funcione el programa")
-
-
