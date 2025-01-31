@@ -28,8 +28,15 @@ print(hour-1)
 print(hour*60+minute)
 print(minute/60)
 """
+""""
+#operador módulo
+quotient = 7 // 3
+print(quotient)
 
-print(x=7)
-print(num= 5)
-print(x = 5)
-print ("x + 1" )
+remainder = 7 % 3
+print(remainder)
+
+Por ejemplo, x % 10 obtiene el dígito que está más a la derecha de x (en
+ base 10). De forma similar, x % 100 obtiene los dos últimos dígitos.
+"""
+
