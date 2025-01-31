@@ -58,12 +58,34 @@ primero =  "666"
 second = 3
 print(primero * second)
 """
-
+"""
 #Peticicón de información al usario
-
 #entrada = input()
 #Cualquier cosa ridícula
 #print(entrada)
 #Cualquier cosa ridícula
-nombre = input()
-print( "¿Tu nombre es?: ",nombre )
+
+nombre = input("¿Cuál es tu nombre completo?\n")
+print("Tu nombre completo es:" ,nombre)
+"""
+"""
+prompt = "¿Cual es la velocidad de vuelo de una golondrina sin carga?\n"
+velocidad = input(prompt)
+int(velocidad)
+int(velocidad) + 5
+"""
+""" 
+a = 35.0
+b = 12.50
+c = a * b
+print(c)
+horas = 35.0
+tarifa = 12.50
+salario = horas * tarifa
+print(salario)
+"""
+
+#Ciclo for o repetir
+
+for word in ord:
+ print(word)
