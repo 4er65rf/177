@@ -1,3 +1,80 @@
+"""""""""
+print("Adios Inmundo")
+
+print("Hola, dime tu nombre: ")
+
+v = input()
+
+print(f"Hola {v}")
+
+#Relacionales
+#= igualdad
+#!=,<> diferenciales
+#>=,<= desigualdades
+#<,> inecuación
+#Lógicos
+#Y and
+#O or
+#N not
+#Aritméticos
+#P  Parentesis ()
+#E  Exponentees b^2 b**2
+#M  *
+#D  / -> // % 
+#A  +
+#S  -
+
+if True:
+    print("Hola Mundo")
+
+if False:
+    print("Me van a brincar")
+else:
+    print("oook")
+
+if None:
+    print("Esto no seta ejecutado")
+elif False:
+    print("print")
+else:
+    print("Nada")
+""
+""
+numA = int(input("inserte el primer número: "))
+numB = int(input("inserte el segundo número: "))
+
+print("suma", numA+numB)
+print("resta", numA-numB)
+print("multiplicacion", numA*numB)
+print("division", numA/numB)
+
+print("modulo", numA%numB)
+print("división entera", numA//numB)
+""
+""
+#ejercicio 1
+numA = int(input("inserte el primer número: "))
+numB = int(input("inserte el segundo número: "))
+
+print("suma", numA+numB)
+print("resta", numA-numB)
+print("multiplicacion", numA*numB)
+print("division", numA/numB)
+
+print("modulo", numA%numB)
+print("división entera", numA//numB)
+"""
+"""
+#ejercio 2
+print("Ejercicio 2: ¿Cuál número es más grande?")
+num1 = float(input("Inserte el primer número: "))
+num2 = float(input("Inserte el segundo número: "))
+
+print("el número más grande es ", num1 if num1/num2 > num2/num1 else num2)
+
+print("el número más grande es ", (num2,num1)[num1/num2 > num2/num1])
+""""
+
 """
 print("Hola mundo desde Python")
 print("Hola desde mi PC para GitHub")
