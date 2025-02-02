@@ -1,2 +1,21 @@
 # 3. Calcular el factorial de un número dado
 
+print("Calculadora de factorial")
+
+def factorial_progresivo_descendente(n):
+    if n < 0:
+        return "El factorial no está definido para números negativos."
+
+    resultado = 1
+    resultados_intermedios = []
+
+    for i in range(n, 0, -1):  # Bucle de n hasta 1 (descendente)
+        resultado *= i
+        resultados_intermedios.append(resultado)  # Guardar el resultado parcial
+
+    return resultados_intermedios
+
+num = int(input("Ingresa un número: "))
+print(f"Resultados factoriales de {num}! dado es: {factorial_progresivo_descendente(num)}")
+
+print("Fin de la calculadora de factorial")

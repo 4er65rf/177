@@ -1,3 +1,6 @@
 # 5. Verificar si un número es primo.
 
-print ("D")
+print ("El verificador del primo")
+
+
+
