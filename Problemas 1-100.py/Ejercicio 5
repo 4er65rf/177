@@ -1,7 +1,5 @@
 # 5. Verificar si un número es primo.
-
 print ("El verificador del primo")
-
 def es_primo(n):
     if n < 2:
         return False
@@ -9,9 +7,7 @@ def es_primo(n):
         if n % i == 0:
             return False
     return True
-
 num = int(input("Ingresa un número: "))
 print(f"{num} {'es' if es_primo(num) else 'no es'} primo")
-
 print ("Fin del verificador del primo")
 
