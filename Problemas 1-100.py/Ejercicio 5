@@ -10,4 +10,3 @@ def es_primo(n):
 num = int(input("Ingresa un número: "))
 print(f"{num} {'es' if es_primo(num) else 'no es'} primo")
 print ("Fin del verificador del primo")
-

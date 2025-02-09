@@ -6,4 +6,3 @@ capital = float(input("Capital inicial: "))
 tasa = float(input("Tasa de interés anual (%): "))
 tiempo = int(input("Número de años: "))
 print(f"Capital final: {interes_compuesto(capital, tasa, tiempo):.2f}")
-
