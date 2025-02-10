@@ -199,7 +199,7 @@ if edad >= 18:
 else:
     print("No puedes votar.")
 """
-
+"""
 nombre = input("Ingrese su nombre: ")
 edad = int(input("Ingrese su edad: "))
 if edad < 10:
@@ -208,3 +208,4 @@ elif edad < 18:
     print(f"{nombre}, puedes entrar solo, pero algunas atracciones están restringidas.")
 else:
     print(f"{nombre}, puedes entrar a todas las atracciones.")
+"""

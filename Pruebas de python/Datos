@@ -1,0 +1,7 @@
+
+Lista = ['Nombre', 'Lugar de Nacimiento', 'fecha de nacimiento']
+Datos = {'Edgar Ramirez Tamayo', 'Monterrey, Nuevo Leon', '13/12/2007'}
+DatosAlumno= [Lista,Datos]
+Mat={}
+Mat['2147038']=DatosAlumno
+print(Mat)
