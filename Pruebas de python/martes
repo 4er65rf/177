@@ -1,8 +1,25 @@
+
+#Relacionales
+#= igualdad
+#!=,<> diferenciales
+#>=,<= desigualdades
+#<,> inecuación
+#Lógicos
+#Y and
+#O or
+#N not
+#Aritméticos
+#P  Parentesis ()
+#E  Exponentees b^2 b**2
+#M  *
+#D  / -> // % 
+#A  +
+#S  -
+
 #Tipos de datos basicos
 str()
 float()
 int()
-
 
 #Tipos de datos estructurados
 

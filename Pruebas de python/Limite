@@ -38,3 +38,19 @@ for item in range(impresion):
 '''        
 
 #print(par[item] if par[item] is not None else 0, impar[item] is not None else 0)
+
+if True:
+    print("Hola Mundo")
+
+if False:
+    print("Me van a brincar")
+else:
+    print("oook")
+
+if None:
+    print("Esto no seta ejecutado")
+elif False:
+    print("print")
+else:
+    print("Nada")
+    
