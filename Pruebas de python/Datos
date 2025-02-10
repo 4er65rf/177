@@ -16,7 +16,7 @@ else:
     print(f"{nombre}, puedes entrar a todas las atracciones.")
 
 
- edad = int(input("Ingrese su edad: "))
+edad = int(input("Ingrese su edad: "))
 if edad >= 18:
     print("Puedes votar.")
 else:
