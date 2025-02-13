@@ -52,4 +52,4 @@ Aquí se guardará todo el portafolio de Evidencias del Semestre Enero-Junio 202
 
   [Ejercicio 20](https://github.com/4er65rf/177/blob/d6532c8a4c9400b3193a4b4783b8c28f1b8b4098/Problemas%2010-20.py/Ejercicio%2020)
 
-[Pruebas de python(Personal)](https://github.com/4er65rf/177/blob/d6532c8a4c9400b3193a4b4783b8c28f1b8b4098/Pruebas%20de%20python)
+[Pruebas de python](https://github.com/4er65rf/177/blob/d6532c8a4c9400b3193a4b4783b8c28f1b8b4098/Pruebas%20de%20python)

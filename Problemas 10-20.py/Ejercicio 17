@@ -1,5 +1,6 @@
 ## 17. Implementar estructuras de datos básicas: pila, cola y lista enlazada.
 
+"""
 print("Implementar estructuras de datos básicas: pila, cola y lista enlazada")
 
 print("1. Pila")
@@ -103,3 +104,4 @@ elif opcion == 3:
                     return True
                 actual = actual.siguiente
             return False
+"""
