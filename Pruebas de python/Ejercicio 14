@@ -1,5 +1,5 @@
 ##14. Implementar distintos métodos de ordenamiento.
-
+"""""""""""""""
 print("Implementar distintos métodos de ordenamiento")
 print("1. Bob")
 print("2. Steve")
@@ -100,3 +100,4 @@ else:
     print("Opción no válida")
     print("Fin del programa")
 
+""""""
