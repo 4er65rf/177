@@ -92,7 +92,7 @@ print(segundos)
 #Diccionarios
 alumnos = dict()
 print(alumnos,type(alumnos))
-alumnos ={2064462:"Josue Espinoza", 2111834: "Rfael Juarez Bernal"}
+alumnos ={2045337:"Jesús", 32433: "Rfael Juarez Bernal"}
 print(alumnos,type(alumnos))
 
 
