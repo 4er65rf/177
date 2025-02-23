@@ -1,6 +1,6 @@
 #28.Simular una cuenta bancaria con depásitos y retiros.
 
-print ("Bienvenido al Banco Fuerte de México de la 4T")
+print ("Bienvenido al Banco del Bienestar de la 4T")
 
 print("Aquí si guardamos tu dinero")
 
