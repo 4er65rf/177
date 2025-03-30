@@ -47,3 +47,4 @@ while True:
         print("Por favor, ingrese un número mayor que 0.")
     except ValueError:
         print("Error: Ingrese un número válido.")
+
