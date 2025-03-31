@@ -15,16 +15,12 @@ def agregar_contacto(agenda):
     nombre = input("Ingrese el nombre del contacto: ")
     numero = input("Ingrese el número de teléfono: ")
     correo = input("Ingrese el correo electrónico: ")
-    
     contacto = (nombre, numero, correo)
     agenda.append(contacto)
     print(f"Contacto '{nombre}' agregado exitosamente.")
 
-
 def buscar_contacto(agenda):
     nombre = input("Ingrese el nombre del contacto a buscar: ")
-
-
     encontrado = False
     for contacto in agenda:
         if contacto[0].lower() == nombre.lower():
@@ -37,7 +33,6 @@ def buscar_contacto(agenda):
 
 def listar_contactos(agenda):
     agenda_ordenada = sorted(agenda, key=lambda x: x[0].lower())
-
     print("Lista de contactos:")
     for contacto in agenda_ordenada:
         print(f"Nombre: {contacto[0]}, Número: {contacto[1]}, Correo: {contacto[2]}")
@@ -45,16 +40,13 @@ def listar_contactos(agenda):
 
 def main():
     agenda = []  # Lista para almacenar los contactos
-    
     while True:
         print("\nOpciones:")
         print("1. Agregar contacto")
         print("2. Buscar contacto")
         print("3. Listar contactos")
         print("4. Salir")
-        
         opcion = input("Seleccione una opción: ")
-        
         if opcion == '1':
             agregar_contacto(agenda)
         elif opcion == '2':

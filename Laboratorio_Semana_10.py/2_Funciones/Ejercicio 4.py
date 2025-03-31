@@ -2,6 +2,7 @@
 #Ejemplo de entrada/salida:
 #Entrada: 10, 20, 30, 40, 50
 #Salida: Promedio: 30.0, Mediana: 30.0, Desviación Estándar: 14.142135623730951
+
 def calcular_estadisticas(*args):
     # Calcular promedio
     promedio = sum(args) / len(args) if args else 0
@@ -16,7 +17,6 @@ def calcular_estadisticas(*args):
     media = lambda x: sum(x) / len(x)
     varianza = sum((x - media(args)) ** 2 for x in args) / len(args)
     desviacion_estandar = varianza ** 0.5
-
     return promedio, mediana, desviacion_estandar
 
 

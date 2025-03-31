@@ -6,7 +6,6 @@ class Vehiculo:
         self.modelo = modelo
         self.año = año
         self.precio = precio
-
     def mostrar_info(self):
         print(f"Marca: {self.marca}")
         print(f"Modelo: {self.modelo}")
@@ -17,7 +16,6 @@ class Automovil(Vehiculo):
     def __init__(self, marca, modelo, año, precio, num_puertas):
         super().__init__(marca, modelo, año, precio)
         self.num_puertas = num_puertas
-
     def mostrar_info(self):
         super().mostrar_info()
         print(f"Número de puertas: {self.num_puertas}")
@@ -26,7 +24,6 @@ class Motocicleta(Vehiculo):
     def __init__(self, marca, modelo, año, precio, cilindrada):
         super().__init__(marca, modelo, año, precio)
         self.cilindrica = cilindrada
-
     def mostrar_info(self):
         super().mostrar_info()
         print(f"Motocicleta: {self.cilindrica} cc")

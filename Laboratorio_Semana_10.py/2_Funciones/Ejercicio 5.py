@@ -5,6 +5,7 @@
 # 2. Celsius a Fahrenheit: 25 °C => 77 °F
 # 3. Litros a Galones: 10 L => 2.64172 galones
 # 4. Salir
+
 def km_a_millas(kilometros):
     return kilometros * 0.621371
 
@@ -19,9 +20,7 @@ def main():
     print("1. Kilómetros a Millas")
     print("2. Celsius a Fahrenheit")
     print("3. Litros a Galones")
-    
     opcion = input("Seleccione una opción (1-3): ")
-    
     if opcion == '1':
         km = float(input("Ingrese la distancia en kilómetros: "))
         millas = km_a_millas(km)
@@ -36,7 +35,6 @@ def main():
         print(f"{litros} litros son {galones} galones.")
     else:
         print("Opción no válida. Intente nuevamente.")
-
 
 #definir la función main() como punto de entrada del programa
 #Float() convierte la entrada del usuario a un número decimal.

@@ -23,7 +23,6 @@ def merge_sort(arr):
         # Verifica si quedan elementos en L[]
         while i < len(L): #while i < len(L): #mientras i sea menor que la longitud de L
             arr[k] = L[i] #arr[k] = L[i] #asigna el valor de L[i] a arr[k]
-
             i += 1
             k += 1
         # Verifica si quedan elementos en R[]

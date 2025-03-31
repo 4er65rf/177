@@ -8,7 +8,6 @@ def quicksort(arr):
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)
-
 def binary_search(arr, target):
     low = 0
     high = len(arr) - 1
@@ -21,7 +20,6 @@ def binary_search(arr, target):
         else:
             return mid
     return -1
-
 lista = [5, 3, 8, 6, 2, 7, 4, 1]
 print("Lista original:", lista)
 lista_ordenada = quicksort(lista)

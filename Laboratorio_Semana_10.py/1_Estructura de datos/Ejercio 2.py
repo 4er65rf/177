@@ -16,7 +16,6 @@ def agregar_producto(inventario):
     categoria = input("Ingrese la categoría del producto: ")
     precio = float(input("Ingrese el precio del producto: "))
     cantidad = int(input("Ingrese la cantidad del producto: "))
-    
     inventario[nombre] = {'categoria': categoria, 'precio': precio, 'cantidad': cantidad}
     print(f"Producto '{nombre}' agregado al inventario.")
     
@@ -24,7 +23,6 @@ def agregar_producto(inventario):
 
 def eliminar_producto(inventario):
     nombre = input("Ingrese el nombre del producto a eliminar: ")
-    
     if nombre in inventario:
         del inventario[nombre]
         print(f"Producto '{nombre}' eliminado del inventario.")
@@ -34,7 +32,6 @@ def eliminar_producto(inventario):
 
 def buscar_producto(inventario):
     nombre = input("Ingrese el nombre del producto a buscar: ")
-    
     if nombre in inventario:
         producto = inventario[nombre]
         print(f"Producto encontrado: {nombre}, Categoría: {producto['categoria']}, Precio: {producto['precio']}, Cantidad: {producto['cantidad']}")
@@ -44,14 +41,12 @@ def buscar_producto(inventario):
 
 def mostrar_inventario_ordenado(inventario):
     productos_ordenados = sorted(inventario.items(), key=lambda x: x[1]['precio'])
-
     print("Productos ordenados por precio (menor a mayor):")
     for nombre, producto in productos_ordenados:
         print(f"Nombre: {nombre}, Categoría: {producto['categoria']}, Precio: {producto['precio']}, Cantidad: {producto['cantidad']}")
 
 def main():
     inventario = {}
-    
     while True:
         print("\nOpciones:")
         print("1. Agregar producto")
@@ -59,9 +54,7 @@ def main():
         print("3. Buscar producto")
         print("4. Mostrar inventario ordenado por precio")
         print("5. Salir")
-        
         opcion = input("Seleccione una opción: ")
-        
         if opcion == '1':
             agregar_producto(inventario)
         elif opcion == '2':
