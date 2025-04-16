@@ -21,5 +21,5 @@ r = requests.get("http://httpbin.org/get", params=payload, headers={"User-Agent"
 print(r.url)
 r = requests.get("http://httpbin.org/get", params=payload, headers={"User-Agent": "my-app"}, timeout=5, allow_redirects=False, stream=True, verify=False, cert=False)
 print(r.url)
-r = requests.get("http://httpbin.org/get", params=payload, headers={"User-Agent": "my-app"}, timeout=5, allow_redirects=False, stream=True, verify=False, cert=False, proxies={"http": "http://
-                                                                                                                                                                               
+r = requests.get("http://httpbin.org/get", params=payload, headers={"User-Agent": "my-app"}, timeout=5, allow_redirects=False, stream=True, verify=False, cert=False, proxies={"http": "http://proxy.example.com:8080", "https": "http://proxy.example.com:8080"}, auth=("user", "pass"))
+print(r.url)                                                                                                                                                                              
