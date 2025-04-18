@@ -1,4 +1,4 @@
-#Modulo de Coneccion
+2#Modulo de Coneccion
 import API_Conect
 #Modulo de peticiones
 import PokeGet
