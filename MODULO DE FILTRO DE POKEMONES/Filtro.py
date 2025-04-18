@@ -1,3 +1,6 @@
+###PARA QUE FUNCIONE EL MODULO REQUIRE ESTAR EN LA MISMA CARPETA QUE LOS MODULOS API_Conect.py Y PokeGe.py
+
+
 2#Modulo de Coneccion
 import API_Conect
 #Modulo de peticiones
