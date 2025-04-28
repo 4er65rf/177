@@ -9,7 +9,7 @@ class PokedexExtractor:
         self.data = []
 
 
-    def extraer_datos(self, cantidad=151): # Cambia el número de Pokémon a extraer aquí, recomendación 26 sino se saturara la API
+    def extraer_datos(self, cantidad=151): 
         for id_pokemon in range(1, cantidad + 1):
             response = requests.get(f"{self.base_url}{id_pokemon}")
             if response.status_code == 200:
