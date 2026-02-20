@@ -1,0 +1,37 @@
+Program Calculadora
+    Implicit None
+    Real :: num1, num2, resultado
+    Character(1) :: operador
+
+    ! Solicitar al usuario los números y el operador
+    Print *, "Ingrese el primer número:"
+    Read *, num1
+    Print *, "Ingrese el segundo número:"
+    Read *, num2
+    Print *, "Ingrese el operador (+, -, *, /):"
+    Read *, operador
+
+    ! Realizar la operación según el operador ingresado
+    Select Case (operador)
+        Case ('+')
+            resultado = num1 + num2
+        Case ('-')
+            resultado = num1 - num2
+        Case ('*')
+            resultado = num1 * num2
+        Case ('/')
+            If (num2 /= 0.0) Then
+                resultado = num1 / num2
+            Else
+                Print *, "Error: División por cero no permitida."
+                Stop
+            End If
+        Case Default
+            Print *, "Error: Operador no válido."
+            Stop
+    End Select
+
+    ! Mostrar el resultado de la operación
+    Print *, "El resultado es:", resultado
+
+End Program Calculadora
